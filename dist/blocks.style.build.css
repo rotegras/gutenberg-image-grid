@@ -5,10 +5,16 @@
  * that are used across the project.
 */
 /**
- * #.# Styles
+* #.# Styles
+*
+* CSS for both Frontend+Backend.
+*/
+/**
+ * #.# Common SCSS
  *
- * CSS for both Frontend+Backend.
- */
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
 .wp-block-cgb-block-cbg-test {
   background: orangered;
   border: 0.2rem solid #292929;
@@ -16,3 +22,21 @@
   margin: 0 auto;
   max-width: 740px;
   padding: 2rem; }
+  .wp-block-cgb-block-cbg-test .container {
+    border: 1px solid #cccccc;
+    padding: 1rem; }
+  .wp-block-cgb-block-cbg-test .button-container {
+    text-align: center;
+    padding: 22% 0;
+    background: #f1f1f1;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    margin: 0 0 1.2rem 0; }
+  .wp-block-cgb-block-cbg-test .heading {
+    font-size: 1.5rem;
+    font-weight: 600; }
+  .wp-block-cgb-block-cbg-test .image {
+    height: 15.7rem;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
